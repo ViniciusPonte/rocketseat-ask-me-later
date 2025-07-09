@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "@rocketseat/eslint-config"
+  ],
+  "plugins": [],
+  "rules": {}
+}
