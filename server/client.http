@@ -31,10 +31,10 @@ GET {{baseUrl}}/rooms/{{roomId}}/questions
 ###
 
 # Create Question
-# @name createRoom
-POST {{baseUrl}}/rooms/{{roomId}}/questions
+# @name createQuestion
+POST {{baseUrl}}/rooms/e7b2874d-f52c-4b14-9b2e-ee8ca30b83f6/questions
 Content-Type: application/json
 
 {
-  "question": "Como criar o room id?"
+  "question": "Qual seu nome ?"
 }
