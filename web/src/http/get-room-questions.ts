@@ -1,10 +1,11 @@
 import { useQuery } from "@tanstack/react-query";
 
-type GetRoomQuestionsAPIResponse = Array<{
+export type GetRoomQuestionsAPIResponse = Array<{
   id: string;
   question: string;
   answer: string | null;
   createdAt: string;
+  isGeneratingAnswer?: boolean;
 }>;
 
 export async function getRoomQuestions(roomId: string) {
